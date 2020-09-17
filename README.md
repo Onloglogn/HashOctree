@@ -1,5 +1,6 @@
 # HashOctree
-´´´def hashOctree(pts, sz):´´´
+~~~def hashOctree(pts, sz):~~~
+
 An implementation of hashed octree for python. The first bit of the integer is just for not creating ambiguity, sz the size of the box and pts are the points to add to octree.
 
 The outputed dictionary maps to a tuple where the fist element is the first point to go to the cell, and the second is an integer with value 1 if it has a child node and zero otherwise.
