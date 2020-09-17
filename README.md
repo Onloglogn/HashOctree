@@ -1,5 +1,5 @@
 # HashOctree
-~~~def hashOctree(pts, sz):~~~
+``` def hashOctree(pts, sz): ``` 
 
 An implementation of hashed octree for python. The first bit of the integer is just for not creating ambiguity, sz the size of the box and pts are the points to add to octree.
 
